@@ -1,0 +1,23 @@
+null_graph
+	<= nrel_inclusion:
+		section_intelligent_system_graph_theory;
+
+	=> nrel_main_idtf: 
+		[нуль-граф] (* <-lang_ru;; *);
+		[null draph] (* <-lang_en;; *);
+
+	=> nrel_idtf: 
+		[пустой граф] (* <-lang_ru;; *);
+		[вполне несвязный граф] (* <-lang_en;; *);
+
+	->nrel_key_sc_element:
+		...  
+		(*<-sc_definition;;
+		<=nrel_sc_text_translation:
+		...
+			(*
+				-> [Нуль-граф - регулярный граф степени 0, то есть граф без рёбер.Несвязный граф — граф, в котором между хотябы одной парой вершин этого графа не существует путь.Нуль-граф - регулярный граф степени 0, то есть граф без рёбер.] (*<-lang_ru;;*);;
+			*);;
+		*);;
+
+	

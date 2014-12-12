@@ -1,0 +1,17 @@
+sequence
+	<= nrel_inclusion:
+		section_intelligent_system_graph_theory;
+
+	=> nrel_main_idtf: 
+		[маршрут] (* <-lang_ru;; *);
+		[sequence] (* <-lang_en;; *);
+
+	->nrel_key_sc_element:
+		...  
+		(*<-sc_definition;;
+		<=nrel_sc_text_translation:
+		...
+			(*
+				-> [Маршрут в графе — это чередующаяся последовательность вершин и рёбер v_0, e_1, v_1, e_2, v_2, ... , e_k, v_k, в которой любые два соседних элемента инцидентны.] (*<-lang_ru;;*);;
+			*);;
+		*);;

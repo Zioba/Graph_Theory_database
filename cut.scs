@@ -1,0 +1,24 @@
+cut
+	<= nrel_inclusion:
+		section_intelligent_system_graph_theory;
+
+	=> nrel_main_idtf: 
+		[разрез] (* <-lang_ru;; *);
+		[cut] (* <-lang_en;; *);
+
+	=> nrel_idtf: 
+		[разделитель] (* <-lang_ru;; *);
+
+	->nrel_key_sc_element:
+		...  
+		(*<-sc_definition;;
+		<=nrel_sc_text_translation:
+		...
+			(*
+				-> [Разрез S связного графа Г называется такое минимальное множество ребер Γ, что удаление S из Γ разбивает граф Γ−S на две компоненты. ] (*<-lang_ru;;*);;
+			*);;
+		*);
+
+		=> nrel_photo:
+		"file://contents/cut(min).png";;
+	
