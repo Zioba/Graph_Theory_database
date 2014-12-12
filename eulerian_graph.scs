@@ -1,0 +1,20 @@
+eulerian_graph
+	<= nrel_inclusion:
+		section_intelligent_system_graph_theory;
+
+	=> nrel_main_idtf: 
+		[эйлеров граф] (* <-lang_ru;; *);
+		[eulerian graph] (* <-lang_en;; *);
+
+	->nrel_key_sc_element:
+		...  
+		(*<-sc_definition;;
+		<=nrel_sc_text_translation:
+		...
+			(*
+				-> [Эйлеров граф-граф, содержащий цикл, проходящий через все его рёбра.] (*<-lang_ru;;*);;
+			*);;
+		*);
+
+	=> nrel_photo:
+		"file://contents/eulerian_graph.png";;
