@@ -1,0 +1,11 @@
+concept_weighted_graph->weighted_graph_example(*
+	->rrel_vertex: A;;
+	->rrel_vertex: B;;
+	->rrel_vertex: C;;
+	->rrel_vertex: D;;
+	->rrel_edge: ( A <=> B )(* =>nrel_weight : [1];;*);;
+	->rrel_edge: ( B <=> C )(* =>nrel_weigth : [2];;*);;
+	->rrel_edge: ( A <=> D )(* =>nrel_weigth : [5];;*);;
+     ->rrel_edge: ( B <=> D )(* =>nrel_weigth : [1];;*);;
+*);;
+
