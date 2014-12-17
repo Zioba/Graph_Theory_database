@@ -1,0 +1,61 @@
+sc_node_norole_relation 
+->nrel_synonym;
+->nrel_cut;;
+
+nrel_cut
+
+=> nrel_main_idtf:
+[ разрез* ] (* <-lang_ru;; *);
+[ cut* ] (* <-lang_en;; *);
+->rrel_key_sc_element:
+...
+(*<-sc_definition;;
+=> nrel_main_idtf: [Опр.(разрез)] (* <- lang_ru;; *);;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+[Разрез - это множество ребер связного графа, удаление которых приводит к несвязному графу.] (*<-lang_ru;;*);;
+*);;
+*);
+=>nrel_synonym: [разделитель*](*<-lang_ru;;*);
+<-rrel_key_sc_element: ...
+(*
+=>nrel_main_idtf:[Утв.(разрез) ](*<-lang_ru;;*);;
+<- sc_statement;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example: [Разрез в связном графе является либо разрезающим множеством, либо объединением нескольких реберно-непересекающихся разрезающих множеств графа .] (*<-lang_ru;;*);;
+*);;
+*);
+... (*
+=>nrel_main_idtf:[Утв.(автоморфизм) ](*<-lang_ru;;*);;
+<- sc_statement;;
+<=nrel_sc_text_translation:
+...
+(*
+-> rrel_example: [Множество ребер, инцидентных вершине v в связном графе Γ, будет разрезающим множеством тогда и только тогда, когда v не является точкой сочленения в графе Γ.] (*<-lang_ru;;*);;
+*);;
+*);
+=> nrel_definitional_domain:
+graph;
+=> nrel_first_domain:
+graph;
+=> nrel_second_domain:
+arcs;
+
+<- rrel_key_sc_element:
+...
+(*
+<- sc_illustration;;
+<= nrel_sc_text_translation:
+...
+(*
+-> rrel_example:
+"file://contents/cut(min).png";;
+*);;
+*);;
+
+arcs=>nrel_main_idtf: [множество рёбер](*<-lang_ru;;*);;
+nrel_synonym=>nrel_main_idtf: [синоним*](*<-lang_ru;;*);;
