@@ -1,5 +1,4 @@
-undirected_graph->graph_K5
-(*
+undirected_graph->graph_K5(*
 	->rrel_vertex: A;;
 	->rrel_vertex: B;;
 	->rrel_vertex: C;;

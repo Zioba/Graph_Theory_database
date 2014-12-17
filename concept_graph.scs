@@ -1,0 +1,95 @@
+sc_node_not_relation->concept_graph;;
+
+concept_graph=>nrel_main_idtf:
+	[граф]
+		(* <-lang_ru;; *);
+	[graph]
+		(* <-lang_en;; *);;
+
+concept_graph <= nrel_subdividing: 
+	{ 
+	directed_graph;
+	undirected_graph
+	};;
+
+concept_graph <= nrel_subdividing: 
+	{  
+	weighted_graph;
+	unweighted_graph
+	};;
+
+concept_graph <= nrel_subdividing: 
+	{  
+	connected_graph;
+	strongly_connected_graph;
+	disconnected_graph
+	};;
+
+
+concept_graph <- rrel_key_sc_element: 
+        ... 
+		(*
+		<- sc_definition;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Граф - это множество вершин и множество ребер, являющееся подмножеством декартова квадрата множества вершин (т.е. каждое ребро соединяет ровно две вершины)]
+					(* <- lang_ru;;*);;
+			<= nrel_using_constants:
+				{
+				concept_vertex;
+				concept_arc;
+				concept_myltiplicity;
+				concept_under_myltiplicity
+				};;
+			*);;
+		*);;
+
+concept_graph <- rrel_key_sc_element: 
+        ... 
+		(*
+		<- sc_explanation;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Степень вершины равна колличеству смежных с этой вершиной ребер.]
+					(* <- lang_ru;; *);;
+			*);;
+		*);;
+
+concept_graph <- rrel_key_sc_element: 
+        ... 
+		(*
+		<- sc_explanation;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Сумма степеней равна удвоенному числу ребер.]
+					(* <- lang_ru;; *);;
+			*);;
+		*);;
+
+directed_graph => nrel_main_idtf: 
+	[ориентированный граф]
+		(* <- lang_ru;;*);;
+
+undirected_graph => nrel_main_idtf: 
+	[неориентированный граф]
+		(* <- lang_ru;;*);;
+
+weighted_graph => nrel_main_idtf: 
+	[взвешенный граф]
+		(* <- lang_ru;;*);;
+unweighted_graph => nrel_main_idtf: 
+	[невзвешенный граф]
+		(* <- lang_ru;;*);;
+connected_graph => nrel_main_idtf: 
+	[связанный граф]
+		(* <- lang_ru;;*);;
+disconnected_graph => nrel_main_idtf: 
+	[несвязанный граф]
+		(* <- lang_ru;;*);;
+strongly_connected_graph => nrel_main_idtf: 
+	[сильно связанный граф]
+		(* <- lang_ru;;*);;
+
