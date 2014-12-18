@@ -1,7 +1,7 @@
 eulerian_graph
 => nrel_main_idtf:
 [ эйлеров граф ] (* <-lang_ru;; *);
-[ eulerian_graph* ] (* <-lang_en;; *);
+[ eulerian_graph ] (* <-lang_en;; *);
 ->rrel_key_sc_element:
 ...
 (*<-sc_definition;;
