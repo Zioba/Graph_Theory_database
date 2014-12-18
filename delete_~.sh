@@ -1,1 +1,1 @@
-git rm *.scs~
+(rm *.scs~) && (git rm *.scs~)

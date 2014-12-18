@@ -59,7 +59,6 @@ nrel_weight
 ->rrel_example :weighted_graph_example;;
 nrel_definitional_domain => nrel_main_idtf:[область определения*](* <-lang_ru;;*);;
 sc_node_norole_relation ->nrel_main_statements(* =>nrel_main_idtf:[основные утверждения*](* <-lang_ru;; *);;*);;
-sc_node_norole_relation-> nrel_subgraph; nrel_route; nrel_diametr;;
-nrel_subgraph=>nrel_main_idtf:[подграф*](* <-lang_ru;; *);;
+sc_node_norole_relation-> nrel_route; nrel_diametr;;
 nrel_route=>nrel_main_idtf:[маршрут*](* <-lang_ru;; *);;
 nrel_diametr=>nrel_main_idtf:[диаметр*](* <-lang_ru;; *);;

@@ -54,14 +54,14 @@ nrel_sequence
 <= nrel_integration:
 ...
 (*
-->graph;;
+->concept_graph;;
 ->set_of_correspondences;;
 *);;
 *);
 => nrel_first_domain:
-graph;
+concept_graph;
 => nrel_second_domain:
-graph;
+concept_graph;
 => nrel_third_domain:
 set_of_correspondences;;
 
