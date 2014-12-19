@@ -1,5 +1,7 @@
 sc_node_not_relation -> concept_branching;;
 concept_branching
+	<= nrel_inclusion:
+		graph;
 
 	=> nrel_main_idtf: 
 		[лес] (* <-lang_ru;; *);

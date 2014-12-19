@@ -1,5 +1,6 @@
-sc_node_not_relation -> concept_bigraph;;
 concept_bigraph
+	<= nrel_inclusion:
+		graph;
 
 	=> nrel_main_idtf: 
 		[двудольный граф] (* <-lang_ru;; *);
@@ -42,5 +43,3 @@ concept_bigraph
 				"file://contents/bigraph.png";;
 			*);;
 		*);;
-
-concept_graph => nrel_inclusion:concept_bigraph;;
