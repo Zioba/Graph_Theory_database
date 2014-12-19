@@ -19,6 +19,11 @@ concept_weighted_graph
 			(*
 			-> rrel_example: 
 				[Взвешенный граф - граф, у которого все ребра(дуги) имеют вес.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+							{
+								concept_graph;
+								nrel_weight;
+							};;	
 			*);;
 		*);
 

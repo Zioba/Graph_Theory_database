@@ -15,12 +15,13 @@ concept_labeled_graph
 			(*
 			-> rrel_example: 
 				[Помеченный граф -граф, вершинам которого присвоены какие-либо метки, например, натуральные числа или символы какого-нибудь алфавита.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+							{
+								concept_graph;		
+								concept_vertex	
+							};;	
 			*);;
 		*);
-
-
-
-	<=nrel_first_domain:nrel_subgraph;nrel_route;nrel_diametr;
 
 <- rrel_key_sc_element: 
 	...

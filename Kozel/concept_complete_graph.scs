@@ -13,6 +13,11 @@ concept_complete_graph	<- rrel_key_sc_element:
 			(*
 			-> rrel_example: 
 				[Полный граф - граф в котором каждая пара вершин смежна.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+							{
+								concept_graph;
+								nrel_adjacency
+							};;	
 			*);;
 		*);;
 
@@ -25,6 +30,11 @@ concept_complete_graph <- rrel_key_sc_element:...
 			(*
 				-> rrel_example: 
 				 [Полный граф с n вершинами имеет n(n-1)/2 ребер , и обозначается Kn.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+							{
+								concept_graph;
+								rrel_edge
+							};;	
 			*);;
 		*);;
 

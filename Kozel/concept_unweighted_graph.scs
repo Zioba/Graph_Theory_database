@@ -15,6 +15,11 @@ concept_unweighted_graph
 			(*
 			-> rrel_example: 
 				[Невзвешенный граф - граф, у которого все ребра(дуги) не имеют вес.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+							{
+								concept_graph;
+								nrel_weight;
+							};;	
 			*);;
 		*);
 

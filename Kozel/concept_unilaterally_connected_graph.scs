@@ -16,6 +16,11 @@ concept_unilaterally_connected_graph
 			(*
 			-> rrel_example: 
 				[Односторонне связный граф - граф , в котором для любой пары вершин по меньшей мере одна достижим из другой.] (*<-lang_ru;;*);;
+		<= nrel_using_constants:
+							{
+								concept_graph;
+								nrel_vertex	
+							};;	
 			*);;
 		*);
 
