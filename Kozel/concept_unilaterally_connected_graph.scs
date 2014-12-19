@@ -19,7 +19,7 @@ concept_unilaterally_connected_graph
 		<= nrel_using_constants:
 							{
 								concept_graph;
-								nrel_vertex	
+								rrel_node	
 							};;	
 			*);;
 		*);

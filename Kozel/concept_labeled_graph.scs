@@ -18,7 +18,7 @@ concept_labeled_graph
 <= nrel_using_constants:
 							{
 								concept_graph;		
-								concept_vertex	
+								rrel_node	
 							};;	
 			*);;
 		*);
