@@ -1,0 +1,6 @@
+reflexive_relation => nrel_main_idtf:
+	[рефлексивное отношение] 
+		(*<- lang_ru ;; *);;
+transitive_relation => nrel_main_idtf:
+	[транзитивное отношение] 
+		(*<- lang_ru ;;*);;

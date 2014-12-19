@@ -1,0 +1,40 @@
+sc_node_not_relation->concept_weighted_graph;;
+
+
+concept_weighted_graph
+	<= nrel_inclusion:
+		concept_graph;
+
+	=> nrel_main_idtf: 
+		[взвешенынй граф] (* <-lang_ru;; *);
+		[weighted graph] (* <-lang_en;; *);
+
+
+	<-rrel_key_sc_element:
+		...  
+		(*<-sc_definition;;
+		=> nrel_main_idtf: [Опр.(взвешенный граф)] (* <- lang_ru;; *);;
+		<=nrel_sc_text_translation:
+		...
+			(*
+			-> rrel_example: 
+				[Взвешенный граф - граф, у которого все ребра(дуги) имеют вес.] (*<-lang_ru;;*);;
+			*);;
+		*);
+
+
+//	<=nrel_first_domain:nrel_subgraph;nrel_route;nrel_diametr;
+
+<- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;;
+		<= nrel_sc_text_translation:
+		...
+			(*
+			-> rrel_example:
+				"file://contents/weighted_graph.png";;
+			*);;
+	*);;
+
+concept_weighted_graph <=> nrel_antipode: concept_unweighted_graph;;
