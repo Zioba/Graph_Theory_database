@@ -53,4 +53,4 @@ nrel_weight
 			-> rrel_example:
 			"file://contents/weighted_graph.png";;
 			*);;
-	*);
+	*);;
