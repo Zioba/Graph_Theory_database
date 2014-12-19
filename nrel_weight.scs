@@ -40,10 +40,8 @@ nrel_weight
 		};;
 	*);
 
- => nrel_first_domain: 
-		rrel_edge (* =>nrel_main_idtf :[ребро] ;; *);  // IDK !!!!!!!!!!!!!!!!!!!!!
-=>nrel_second_domain :
-		number;
+ => nrel_first_domain: rrel_edge;
+=>nrel_second_domain :number;
 
 <- rrel_key_sc_element: 
 	...
@@ -56,9 +54,3 @@ nrel_weight
 			"file://contents/weighted_graph.png";;
 			*);;
 	*);
-->rrel_example :weighted_graph_example;;
-nrel_definitional_domain => nrel_main_idtf:[область определения*](* <-lang_ru;;*);;
-sc_node_norole_relation ->nrel_main_statements(* =>nrel_main_idtf:[основные утверждения*](* <-lang_ru;; *);;*);;
-sc_node_norole_relation-> nrel_route; nrel_diametr;;
-nrel_route=>nrel_main_idtf:[маршрут*](* <-lang_ru;; *);;
-nrel_diametr=>nrel_main_idtf:[диаметр*](* <-lang_ru;; *);;
