@@ -4,3 +4,9 @@ reflexive_relation => nrel_main_idtf:
 transitive_relation => nrel_main_idtf:
 	[транзитивное отношение] 
 		(*<- lang_ru ;;*);;
+nrel_definitional_domain => nrel_main_idtf:[область определения*](* <-lang_ru;;*);;
+nrel_integration => nrel_main_idtf: [объединение*](*<-lang_ru;;*);;
+set_of_correspondences => nrel_main_idtf: [множество соответствий элементов графов](*<-lang_ru;;*);;
+nrel_third_domain => nrel_main_idtf: [третий домен*](*<-lang_ru;;*);;
+arcs=>nrel_main_idtf: [множество рёбер](*<-lang_ru;;*);;
+nrel_synonym=>nrel_main_idtf: [синоним*](*<-lang_ru;;*);;

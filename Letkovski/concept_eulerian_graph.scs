@@ -16,6 +16,12 @@ concept_eulerian_graph
 (*
 -> rrel_example:
 [Эйлеров граф-граф, содержащий цикл, проходящий через все его рёбра.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		concept_graph;
+		nrel_cycle;
+		rrel_edge
+	};;	
 *);;
 *);
 

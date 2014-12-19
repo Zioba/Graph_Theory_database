@@ -9,6 +9,9 @@ nrel_cut
 [ cut* ] (* <-lang_en;; *);
 
 
+=> nrel_arity_of_relations: 2 (* <- number ;;*);
+
+
 <-rrel_key_sc_element:
 ...
 (*<-sc_definition;;
@@ -18,6 +21,12 @@ nrel_cut
 (*
 -> rrel_example:
 [Разрез - это множество ребер связного графа, удаление которых приводит к несвязному графу.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		concept_connected_graph;
+		concept_disconnected_graph;
+		rrel_edge
+	};;	
 *);;
 *);
 =>nrel_synonym: [разделитель*](*<-lang_ru;;*);
@@ -60,6 +69,3 @@ arcs;
 "file://contents/cut(min).png";;
 *);;
 *);;
-
-arcs=>nrel_main_idtf: [множество рёбер](*<-lang_ru;;*);;
-nrel_synonym=>nrel_main_idtf: [синоним*](*<-lang_ru;;*);;

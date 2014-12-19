@@ -12,6 +12,10 @@ rrel_edge
 (*
 <- rrel_example:
 [Ребро – связка, соединяющая две вершины графа.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		rrel_vertex
+	};;	
 *);;
 *);
 <-rrel_key_sc_element: ...
