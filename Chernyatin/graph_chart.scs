@@ -1,0 +1,43 @@
+sc_node_not_relation -> graph_chart;;
+
+graph_chart
+=> nrel_main_idtf:
+	[граф-схема алгоритма] (* <-lang_ru;; *);
+	[graph chart] (* <-lang_en;; *);
+
+<-rrel_key_sc_element:
+				...
+				(*
+				<-sc_definition;;  => nrel_main_idtf: [Опр.(граф-схема алгоритма)] (* <- lang_ru;; *);;
+				<=nrel_sc_text_translation:
+							...
+							(*
+							->[Граф-схема алгоритма (ГСА) — конечный связный ориентированный граф, вершины которого  соответствуют операторам, а дуги задают порядок следования вершин (операторов) алгоритма, где — число вершин графа,  — число дуг. ] (* <-lang_ru;text;; *);;
+							*);;
+				*);
+
+<- rrel_key_sc_element:
+			...
+			(*
+		<- sc_statement;;	
+		<=nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example: 
+				 [В более широком смысле вершинам графа соответствуют не только операторные вершины, но и условные, начальная и конечная вершины и т.д.] (*<-lang_ru;;*);;
+			*);;
+		*);
+
+<- rrel_key_sc_element:
+			...
+			(*
+		<- sc_statement;;	
+		<=nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example: 
+				 [Эквивалентным представлением граф-схемы корректного алгоритма является дерево фрагментов, отражающее порядок вложенности фрагментов.] (*<-lang_ru;;*);;
+			*);;
+		*);;
+
+concept_connected_graph => nrel_inclusion:graph_chart;;
