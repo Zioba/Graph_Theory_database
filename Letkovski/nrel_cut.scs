@@ -7,7 +7,9 @@ nrel_cut
 => nrel_main_idtf:
 [ разрез* ] (* <-lang_ru;; *);
 [ cut* ] (* <-lang_en;; *);
-->rrel_key_sc_element:
+
+
+<-rrel_key_sc_element:
 ...
 (*<-sc_definition;;
 => nrel_main_idtf: [Опр.(разрез)] (* <- lang_ru;; *);;
@@ -19,6 +21,8 @@ nrel_cut
 *);;
 *);
 =>nrel_synonym: [разделитель*](*<-lang_ru;;*);
+
+
 <-rrel_key_sc_element: ...
 (*
 =>nrel_main_idtf:[Утв.(разрез) ](*<-lang_ru;;*);;
