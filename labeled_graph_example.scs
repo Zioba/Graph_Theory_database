@@ -1,7 +1,0 @@
-undirected_graph->labeled_graph_example(*
-	->rrel_vertex: A;;
-	->rrel_vertex: B;;
-	->rrel_vertex: C;;
-	->rrel_edge: ( A <=> B );;
-	->rrel_edge: ( C <=> B );;
-*);;
