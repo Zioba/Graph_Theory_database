@@ -9,7 +9,7 @@ nrel_sequence
 => nrel_main_idtf:
 [ маршрут* ] (* <-lang_ru;; *);
 [ sequence* ] (* <-lang_en;; *);
-->rrel_key_sc_element:
+<-rrel_key_sc_element:
 ...
 (*<-sc_definition;;
 => nrel_main_idtf: [Опр.(маршрут)] (* <- lang_ru;; *);;
