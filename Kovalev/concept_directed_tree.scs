@@ -20,6 +20,20 @@ concept_directed_tree <- rrel_key_sc_element:
 				*);;
 
 concept_directed_tree <- rrel_key_sc_element: 
+        ... 
+		(*
+		<- sc_explanation;;
+		<= nrel_sc_text_translation: ...
+			(*
+			-> rrel_example: 
+				[Вершины с нулевой степенью исхода называются концевыми вершинами или листьями.]
+					(* <- lang_ru;; *);;
+			<= nrel_using_constants: concept_leaf_vertex;;
+			*);;
+		*);;
+
+
+concept_directed_tree <- rrel_key_sc_element: 
 	...
 	(*
 		<- sc_illustration;;

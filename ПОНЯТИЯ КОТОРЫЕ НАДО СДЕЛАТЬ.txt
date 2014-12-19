@@ -9,16 +9,4 @@
 					(* <- lang_ru;; *);;
 			*);;
 		*);
-
-concept_directed_tree <- rrel_key_sc_element: 
-        ... 
-		(*
-		<- sc_explanation;;=> nrel_main_idtf:[Листья] (* <- lang_ru;; *);;
-		<= nrel_sc_text_translation: ...
-			(*
-			-> rrel_example: 
-				[Вершины с нулевой степенью исхода называются концевыми вершинами или листьями.]
-					(* <- lang_ru;; *);;
-			*);;
-		*);;
 	
