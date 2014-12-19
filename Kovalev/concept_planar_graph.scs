@@ -15,6 +15,11 @@ concept_planar_graph <- rrel_key_sc_element:
 			-> rrel_example: 
 				[Планарный граф — граф, который может быть изображён на плоскости без пересечения ребер.]
 					(* <- lang_ru;;*);;
+			<= nrel_using_constants:
+				{
+					concept_graph;
+					concept_edge
+				};;
 			*);;
 		*);;
 
@@ -27,6 +32,10 @@ concept_planar_graph <- rrel_key_sc_element:
 			-> rrel_example: 
 				[Области, на которые граф разбивает плоскость, называются его гранями.]
 					(* <- lang_ru;; *);;
+			<= nrel_using_constants:
+				{
+					concept_graph
+				};;
 			*);;
 		*);;
 

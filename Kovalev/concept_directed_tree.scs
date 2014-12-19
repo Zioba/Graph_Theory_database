@@ -15,8 +15,15 @@ concept_directed_tree <- rrel_key_sc_element:
 					...
 					(*
 					-> rrel_example: 
-						[Ориентированное дерево, в котором только одна вершина является корнем дерева, а все остальные вершины имеют степень захода 1 (в них ведёт ровно по одной дуге).] (*<-lang_ru;;*);;
+						[Ориентированное дерево - дерево,в котором только одна вершина является корнем дерева, а все остальные вершины имеют степень захода 1 (в них ведёт ровно по одной дуге).] (*<-lang_ru;;*);;
 					*);;
+					<= nrel_using_constants:
+					{
+						concept_vertex;
+						concept_arc/*;
+						concept_tree*/
+					};;		
+		
 				*);;
 
 concept_directed_tree <- rrel_key_sc_element: 
@@ -28,7 +35,11 @@ concept_directed_tree <- rrel_key_sc_element:
 			-> rrel_example: 
 				[Вершины с нулевой степенью исхода называются концевыми вершинами или листьями.]
 					(* <- lang_ru;; *);;
-			<= nrel_using_constants: concept_leaf_vertex;;
+			<= nrel_using_constants:
+			{ 
+				concept_leaf_vertex;
+				concept_vertex
+			};;
 			*);;
 		*);;
 

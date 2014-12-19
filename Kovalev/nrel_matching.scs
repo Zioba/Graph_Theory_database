@@ -24,6 +24,12 @@ nrel_matching <- rrel_key_sc_element:
 		-> rrel_example: 
 			[Паросочетание или независимое множество ребер в графе — это набор попарно несмежных ребер.]
 				(* <- lang_ru;; *);;
+		<= nrel_using_constants:
+				{
+				concept_graph;
+				concept_edge;
+				finite_sc_set
+				};;
 		*);;
 	*);;
 

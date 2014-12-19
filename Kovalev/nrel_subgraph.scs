@@ -29,5 +29,11 @@ nrel_subgraph <- rrel_key_sc_element:
 		-> rrel_example: 
 			[Подграф- граф, содержащий некое подмножество вершин некоторого исходного графа и некое подмножество инцидентных им ребер.]
 				(* <- lang_ru;; *);;
+		<= nrel_using_constants:
+				{
+				concept_vertex;
+				concept_edge;
+				concept_graph
+				};;
 		*);;
 	*);;
