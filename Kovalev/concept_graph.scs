@@ -22,9 +22,7 @@ concept_graph <= nrel_subdividing:
 	{  
 
 	concept_connected_graph;
-	concept_strongly_connected_graph;
 	concept_disconnected_graph
-
 	};;
 
 

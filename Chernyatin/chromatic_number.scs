@@ -1,0 +1,51 @@
+sc_node_no_role_relation -> nrel_chromatic_number;;
+nrel_chromatic_number => nrel_main_idtf:
+	[хроматическое число] (* <-lang_ru;; *);
+	[chromatic number] (* <-lang_en;; *);
+
+<-rrel_key_sc_element:
+				...
+				(*
+				<-sc_definition;;  => nrel_main_idtf: [Опр.(хроматическое число)] (* <- lang_ru;; *);;
+				<=nrel_sc_text_translation:
+							...
+							(*
+							->[Хроматическое число графа G -  минимальное число цветов, в которые можно раскрасить вершины графа G так, чтобы концы любого ребра имели разные цвета. Обозначается χ(G).] (* <-lang_ru;text;; *);;
+				<= nrel_using_constants:
+				{
+					concept_graph;
+					rrel_node;
+					rrel_edge;
+				};;
+							*);;
+				*);
+
+<- rrel_key_sc_element:
+			...
+			(*
+		<- sc_statement;;	
+		<=nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example: 
+				 [ хроматическое число можно рассматривать для других объектов, например, для метрических пространств.] (*<-lang_ru;;*);;	
+			
+	*);;
+		*);
+
+
+=> nrel_definitional_domain:
+	...
+	(*
+		<= nrel_combination:
+			{
+			conected_graph;
+			rrel_node;
+			number_color;
+};;
+*);
+=> nrel_first_domain: concept_vertex;
+=>nrel_second_domain :number_color;;
+
+
+	

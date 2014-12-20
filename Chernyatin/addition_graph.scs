@@ -1,0 +1,64 @@
+sc_node_not_relation -> addition_graph;;
+
+addition_graph
+=> nrel_main_idtf:
+	[дополнение графа] (* <-lang_ru;; *);
+	[addition graph] (* <-lang_en;; *);
+
+<-rrel_key_sc_element:
+				...
+				(*
+				<-sc_definition;;  => nrel_main_idtf: [Опр.(дополнение графа)] (* <- lang_ru;; *);;
+				<=nrel_sc_text_translation:
+							...
+							(*
+							->[Дополнением или обратным к графу G называется такой граф H, имеющий то же множество вершин, что и G, но в котором две несовпадающие вершины смежны тогда и только тогда, когда они не смежны в G.] (* <-lang_ru;text;; *);;
+				
+				<= nrel_using_constants:
+				{
+					concept_graph;
+					rrel_node;
+					rrel_edge;
+					
+				};;						
+
+			*);;
+				*);
+
+<- rrel_key_sc_element:
+			...
+			(*
+		<- sc_statement;;	
+		<=nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example: 
+				 [Дополнение пустого графа (содержащего только вершины, но не ребра) является полный граф, и наоборот.] (*<-lang_ru;;*);;
+				<= nrel_using_constants:
+				{
+					rrel_edge;
+					rrel_node;
+					
+					
+				};;		
+
+			*);;
+		*);
+
+<- rrel_key_sc_element:
+			...
+			(*
+		<- sc_statement;;	
+		<=nrel_sc_text_translation:
+		...
+			(*
+				-> rrel_example: 
+				 [Эквивалентным представлением граф-схемы корректного алгоритма является дерево фрагментов, отражающее порядок вложенности фрагментов.] (*<-lang_ru;;*);;
+			*);;
+		*);;
+
+
+
+
+
+concept_connected_graph => nrel_inclusion:addition_graph;;
