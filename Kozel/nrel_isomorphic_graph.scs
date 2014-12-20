@@ -5,6 +5,8 @@ nrel_graph_isomorphism
 		[ изоморфизм графов* ] (* <-lang_ru;; *);
 		[ graph isomorphism* ] (* <-lang_en;; *);
 
+=> nrel_arity_of_relations: 3 (* <- number ;;*);
+
 	->rrel_key_sc_element:
 		...  
 		(*<-sc_definition;;
@@ -18,7 +20,7 @@ nrel_graph_isomorphism
 							{
 								concept_graph;
 								nrel_bijection;
-								nrel_adjacency
+								nrel_vertex_adjacency
 							};;	
 			*);;
 		*);
@@ -50,17 +52,27 @@ nrel_graph_isomorphism
 							{
 								concept_graph;
 								nrel_bijection;
-//								nrel_automorphism;
+								nrel_graph_automorphism
 							};;	
 			*);;
 		
 	*);
 
- => nrel_definitional_domain: 
-	concept_graph;
-
+=> nrel_definitional_domain:
+...
+(*
+				<= nrel_integration:
+					...
+						(*
+								->concept_graph;;
+								->set_of_correspondences;;
+							*);;
+*);
  => nrel_first_domain: 
 	concept_graph;
+
+=> nrel_third_domain:
+set_of_correspondences;
 
  => nrel_second_domain: 
 	concept_graph;
@@ -76,3 +88,4 @@ nrel_graph_isomorphism
 			"file://contents/1117_01.jpg";;
 			*);;
 	*);;
+nrel_graph_isomorphism => nrel_inclusion: nrel_graph_gomomorphism;;
