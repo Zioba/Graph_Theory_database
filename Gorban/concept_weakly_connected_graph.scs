@@ -1,0 +1,25 @@
+sc_node_not_relation -> concept_weakly_connected_graph;;
+
+concept_weakly_connected_graph => nrel_main_idtf:
+	[слабо связный граф] (* <- lang_ru;; *);
+	[weakly connected graph] (* <- lang_en;; *);;
+
+concept_directed_graph => nrel_inclusion: concept_weakly_connected_graph;;
+
+concept_weakly_connected_graph <- rrel_key_sc_element: ... (*
+	<- sc_definition;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: [Орграф, если полученный из него заменой ориентированных рёбер неориентированными граф является связным] (* <- lang_ru;; *);;
+		<= nrel_using_constants: {
+			concept_directed_graph;
+			concept_connected_component
+			};;
+		*);;
+*);;
+
+concept_weakly_connected_graph <- rrel_key_sc_element: ... (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://contents/weakly_connected_graph_example.png";;
+	*);;
+*);;
