@@ -13,9 +13,6 @@ nrel_radius => nrel_idtf: [быть радиусом*] (* <- lang_ru;; *);;
 
 nrel_radius => nrel_idtf: [быть радиусом графа*] (* <- lang_ru;; *);;
 
-nrel_radius => nrel_arity_of_relations: 2 
-	(* <- number ;;*);;
-
 nrel_radius <- oriented_relation;;
 	
 

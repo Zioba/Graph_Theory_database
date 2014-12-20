@@ -1,0 +1,42 @@
+sc_node_not_relation -> concept_pseudograph;;
+concept_hyper_graph => nrel_main_idtf:
+	[псевдограф]
+	(* <- lang_ru;;	*);
+	[pseudograph]
+	(* <- lang_en;;	*);;
+
+concept_pseudograph <- rrel_key_sc_element:
+	...  
+	(*
+	=> nrel_main_idtf: [Опр.(псевдограф)] (* <- lang_ru;; *);;
+	<- sc_explanation;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[Псевдограф (Pseudograph) — пара(V,E), где ,V — непустое множество вершин, а E — некоторое семейство неупорядоченных вершин (ребер), не обязательно различных. Другими словами, от графа псевдограф отличается тем, что в нем, как и в мультиграфе, допускаются кратные ребра и, кроме того, допускаются петли, причем возможно даже несколько петель при одной вершине.]
+			(* <- lang_ru;; *);;
+			<= nrel_using_constants:
+			{	
+			concept_graph;
+			concept_multigraph;
+			rrel_loop;
+			rrel_edge;
+			rrel_vertex;
+			rrel_arc
+			};;
+		*);;
+	*);;
+
+
+concept_pseudograph <- rrel_key_sc_element: 
+	...
+	(*
+		<- sc_illustration;;
+		<= nrel_sc_text_translation:
+		...
+			(*
+			-> rrel_example:
+				"file://contents/concept_hyper_graph.png";;
+			*);;
+	*);;
