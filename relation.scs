@@ -10,3 +10,8 @@ set_of_correspondences => nrel_main_idtf: [множество соответст
 nrel_third_domain => nrel_main_idtf: [третий домен*](*<-lang_ru;;*);;
 arcs=>nrel_main_idtf: [множество рёбер](*<-lang_ru;;*);;
 nrel_synonym=>nrel_main_idtf: [синоним*](*<-lang_ru;;*);;
+nrel_using_constants
+	(*
+	=>nrel_main_idtf: [множество рёбер](*<-lang_ru;;*);;
+	<-sc_node_norole_relation;;
+	*);;
