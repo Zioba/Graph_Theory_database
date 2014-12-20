@@ -35,5 +35,9 @@ rrel_edge
 ...
 (*
 -> rrel_example: [Ребро, концы которого совпадают называется петлей. ] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		rrel_loop
+	};;	
 *);;
 *);;

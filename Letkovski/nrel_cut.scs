@@ -40,6 +40,10 @@ nrel_cut
 ...
 (*
 -> rrel_example: [Разрез в связном графе является либо разрезающим множеством, либо объединением нескольких реберно-непересекающихся разрезающих множеств графа .] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		concept_connected_graph
+	};;	
 *);;
 *);
 ... (*
@@ -49,6 +53,11 @@ nrel_cut
 ...
 (*
 -> rrel_example: [Множество ребер, инцидентных вершине v в связном графе Γ, будет разрезающим множеством тогда и только тогда, когда v не является точкой сочленения в графе Γ.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		rrel_edge;
+		rrel_vertex
+	};;	
 *);;
 *);
 => nrel_definitional_domain:
@@ -69,3 +78,6 @@ arcs;
 "file://contents/cut(min).png";;
 *);;
 *);;
+
+arcs=>nrel_main_idtf: [множество рёбер](*<-lang_ru;;*);;
+nrel_synonym=>nrel_main_idtf: [синоним*](*<-lang_ru;;*);;

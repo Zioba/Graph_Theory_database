@@ -34,6 +34,11 @@ concept_eulerian_graph
 ...
 (*
 -> rrel_example: [Связный граф является эйлеровым тогда и только тогда, когда он не содержит вершин нечётной степени.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		concept_connected_graph;
+		rrel_vertex
+	};;	
 *);;
 *);
 
@@ -46,6 +51,12 @@ concept_eulerian_graph
 ...
 (*
 -> rrel_example: [Для связного эйлерова графа множество ребер можно разбить на простые циклы.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		concept_connected_graph;
+		nrel_cycle;
+		rrel_edge
+	};;	
 *);;
 *);
 ... (*
@@ -57,6 +68,13 @@ concept_eulerian_graph
 ...
 (*
 -> rrel_example: [Связный неориентированный граф будет полуэйлеровым тогда только тогда, когда число вершин нечетной степени 0 или 2.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		concept_connected_graph;
+		undirected_graph;
+		nrel_cycle;
+		rrel_vertex
+	};;	
 *);;
 *);
 

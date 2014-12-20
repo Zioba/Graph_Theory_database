@@ -38,6 +38,10 @@ nrel_sequence
 ...
 (*
 -> rrel_example: [Маршрут конечен, если число входящих в него рёбер конечно и бесконечен в противном случае.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		rrel_edge
+	};;
 *);;
 *);
 ... (*
@@ -47,6 +51,10 @@ nrel_sequence
 ...
 (*
 -> rrel_example: [Маршрут без повторяющихся рёбер называется цепью.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		rrel_edge
+	};;	
 *);;
 *);
 ... (*
@@ -56,6 +64,10 @@ nrel_sequence
 ...
 (*
 -> rrel_example: [Маршрут без повторяющихся вершин называется простой цепью.] (*<-lang_ru;;*);;
+<= nrel_using_constants:
+	{
+		rrel_vertex
+	};;	
 *);;
 *);
 => nrel_definitional_domain:
@@ -74,3 +86,9 @@ concept_graph;
 concept_graph;
 => nrel_third_domain:
 set_of_correspondences;;
+
+
+nrel_definitional_domain => nrel_main_idtf:[область определения*](* <-lang_ru;;*);;
+nrel_integration => nrel_main_idtf: [объединение*](*<-lang_ru;;*);;
+set_of_correspondences => nrel_main_idtf: [множество соответствий элементов графов](*<-lang_ru;;*);;
+nrel_third_domain => nrel_main_idtf: [третий домен*](*<-lang_ru;;*);;
