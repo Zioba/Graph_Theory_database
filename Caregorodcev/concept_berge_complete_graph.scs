@@ -13,9 +13,11 @@ concept_berge_complete_graph <- rrel_key_sc_element:...
 						(*<- lang_ru;;*);;
 						<= nrel_using_constants:
 						{
-						concept_graph;
 						concept_directed_graph;
-						concept_pseudograph
+						concept_pseudograph;
+						concept_vertex;
+						rrel_edge;
+						rrel_loop
 						};;
 					*);;
 				*);;

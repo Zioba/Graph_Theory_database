@@ -6,6 +6,9 @@ nrel_radius => nrel_main_idtf:
 	[radius*]
 	(* <- lang_en;; *);;
 
+nrel_radius => nrel_arity_of_relations: 2 
+	(* <- number ;;*);;
+
 nrel_radius => nrel_idtf: [быть радиусом*] (* <- lang_ru;; *);;
 
 nrel_radius => nrel_idtf: [быть радиусом графа*] (* <- lang_ru;; *);;
@@ -44,5 +47,11 @@ nrel_radius <- rrel_key_sc_element:
 		-> rrel_example: 
 			[Радиус графа - наименьший из эксцентриситетов его вершин.]
 			(* <- lang_ru;; *);;
+			<= nrel_using_constants:
+			{
+				concept_vertex;
+				concept_eccentricity;
+				concept_graph
+			};;
 		*);;
 	*);; 
