@@ -65,6 +65,7 @@ nrel_diametr <- rrel_key_sc_element:...
 <= nrel_using_constants:
 							{
 								concept_graph;
+								rrel_edge
 							};;	
 			*);;
 		*);;

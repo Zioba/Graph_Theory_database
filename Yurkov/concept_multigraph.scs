@@ -20,7 +20,7 @@ concept_multigraph <- rrel_key_sc_element:
 				{
 					concept_graph;
 					rrel_edge;
-					rrel_node
+					rrel_vertex
 				};;
 			*);;
 		*);;
