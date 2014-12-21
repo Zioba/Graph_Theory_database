@@ -21,7 +21,7 @@ nrel_number_of_chords <- rrel_key_sc_element: ... (*
 		<= nrel_using_constants: {
 				rrel_edge;
 				concept_graph;
-				contept_concept_tree
+				concept_tree
 		};;
 	*);;
 *);;

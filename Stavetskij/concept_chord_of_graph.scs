@@ -17,7 +17,7 @@ concept_chord_of_graph
 			<= nrel_using_constants: {
 				rrel_edge;
 				concept_graph;
-				contept_concept_tree
+				concept_tree
 			};;
 			*);;
 		*);;
