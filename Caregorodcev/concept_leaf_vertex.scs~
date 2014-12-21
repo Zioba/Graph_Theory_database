@@ -12,7 +12,7 @@ concept_leaf_vertex <- rrel_key_sc_element:...
 					(*
 						->rrel_example:[Висячая вершина - вершина, степень которой равна 1.]
 						(*<- lang_ru;;*);;
-						<= nrel_using_constants: rrel_vertex;;
+						<= nrel_using_constants: concept_vertex;;
 					*);;
 				*);;
 

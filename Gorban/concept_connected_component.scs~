@@ -1,0 +1,30 @@
+sc_node_norole_relation -> nrel_connected_component;;
+
+nrel_connected_component => nrel_main_idtf:
+	[компонента связности*] (* <- lang_ru;; *);
+	[connected component*] (* <- lang_en;; *);;
+
+nrel_connected_component <- binary_relation;;
+nrel_connected_component => nrel_arity_of_relations: 2 (* <- number;; *);;
+nrel_connected_component => nrel_first_domain: concept_graph;; 
+nrel_connected_component => nrel_definitional_domain: nrel_vertex_set;;
+
+nrel_connected_component <- rrel_key_sc_element: ... (*
+	<- sc_definition;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: [Некоторое множество вершин графа такое, что для любых двух вершин из этого множества существует путь из одной в другую, и не существует пути из вершины этого множества в вершину не из этого множества.] 
+			(* <- lang_ru;; *);;
+		<= nrel_using_constants: {
+			concept_connected_graph;
+			concept_vertex;
+			nrel_path
+			};;
+		*);;
+*);;
+
+nrel_connected_component <- rrel_key_sc_element: ... (*
+	<- sc_illustration;;
+	<= nrel_sc_text_translation: ... (*
+		-> rrel_example: "file://contents/connected_component_example.png";;
+	*);;
+*);;
