@@ -19,7 +19,7 @@ concept_branching
 
 	<= nrel_using_constants:
 		{
-			concept_undirected_graph;
+			concept_undirected_graph
 		};;
 
 concept_graph => nrel_inclusion:concept_branching;;

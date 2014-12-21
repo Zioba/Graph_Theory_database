@@ -18,7 +18,7 @@ concept_unweighted_graph
 <= nrel_using_constants:
 							{
 								concept_graph;
-								nrel_weight;
+								nrel_weight
 							};;	
 			*);;
 		*);

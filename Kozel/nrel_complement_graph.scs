@@ -1,4 +1,4 @@
-sc_node_norole_relation ->nrel_complement_graph
+sc_node_norole_relation ->nrel_complement_graph;;
 nrel_complement_graph
 	=> nrel_main_idtf: 
 		[ дополнение графа* ] (* <-lang_ru;; *);
@@ -15,7 +15,7 @@ nrel_complement_graph
 			(*
 				-> rrel_example: 
 [Граф , имеющий то же множество вершин, что и G, но в котором две несовпадающие вершины смежны тогда и только тогда, когда они не смежны в G
-]
+];;
 <= nrel_using_constants:
 							{
 								concept_graph;

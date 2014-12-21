@@ -14,7 +14,7 @@ nrel_edge_coloring => nrel_main_idtf:
 				<= nrel_using_constants:
 				{
 					concept_graph;
-					rrel_edge;
+					rrel_edge
 				};;
 							*);;
 				*);
@@ -31,7 +31,7 @@ nrel_edge_coloring => nrel_main_idtf:
 			<= nrel_using_constants:
 				{
 					concept_graph;
-					rrel_edge;
+					rrel_edge
 				};;	
 	*);;
 		*);
@@ -48,7 +48,7 @@ nrel_edge_coloring => nrel_main_idtf:
 				<= nrel_using_constants:
 				{
 					rrel_edge;
-					nrel_chromatic_number;
+					nrel_chromatic_number
 					
 				};;			
 			*);;
@@ -61,7 +61,7 @@ nrel_edge_coloring => nrel_main_idtf:
 			conected_graph;
 			concept_edge;
 			color
-};;
+			};;
 *);
 => nrel_first_domain: concept_edge;
 =>nrel_second_domain :color;;

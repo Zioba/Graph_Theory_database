@@ -18,7 +18,7 @@ addition_graph
 				{
 					concept_graph;
 					rrel_node;
-					rrel_edge;
+					rrel_edge
 					
 				};;						
 
@@ -37,9 +37,7 @@ addition_graph
 				<= nrel_using_constants:
 				{
 					rrel_edge;
-					rrel_node;
-					
-					
+					rrel_node
 				};;		
 
 			*);;

@@ -15,7 +15,7 @@ nrel_chromatic_number => nrel_main_idtf:
 				{
 					concept_graph;
 					rrel_node;
-					rrel_edge;
+					rrel_edge
 				};;
 							*);;
 				*);
@@ -41,7 +41,7 @@ nrel_chromatic_number => nrel_main_idtf:
 			{
 			conected_graph;
 			rrel_node;
-			number_color;
+			number_color
 };;
 *);
 => nrel_first_domain: concept_vertex;

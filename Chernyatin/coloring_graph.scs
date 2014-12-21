@@ -13,8 +13,8 @@ nrel_coloring_graph => nrel_main_idtf:
 							->[Раскраска графов - становление элементам графа (вершинам или дугам) в соответствие метки ("цвета") с учетом определенных ограничений.] (* <-lang_ru;text;; *);;
 				<= nrel_using_constants:
 				{
-					concept_vertex;
-					сoncept_edge;
+					rrel_node;
+					rrel_edge
 				};;
 							*);;
 				*);
@@ -30,7 +30,7 @@ nrel_coloring_graph => nrel_main_idtf:
 				 [ В простейшем случае, такой способ окраски вершин графа, при котором любым двум смежным вершинам соответствуют разные цвета, называется раскраской вершин.] (*<-lang_ru;;*);;	
 			<= nrel_using_constants:
 				{
-					rrel_node;
+					rrel_node
 				};;	
 	*);;
 		*);
@@ -46,7 +46,7 @@ nrel_coloring_graph => nrel_main_idtf:
 				 [Раскраска вершин – главная проблема раскраски графов, все остальные задачи в этой области могут быть перенесены на эту модель.] (*<-lang_ru;;*);;
 				<= nrel_using_constants:
 				{
-					rrel_node;
+					rrel_node
 					
 				};;			
 			*);;

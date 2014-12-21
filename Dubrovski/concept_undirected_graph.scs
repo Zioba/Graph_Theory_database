@@ -39,7 +39,7 @@ concept_undirected_graph <- rrel_key_sc_element:
 			<= nrel_using_constants:
 			{	
 			concept_graph;
-			rrel_arc;
+			rrel_arc
 			};;
 		*);;
 	*);;
@@ -59,7 +59,7 @@ concept_undirected_graph <- rrel_key_sc_element:
 				{	
 				concept_graph;
 				rrel_node;
-				rrel_edge;
+				rrel_edge
 				};;
 		*);;
 	*);;

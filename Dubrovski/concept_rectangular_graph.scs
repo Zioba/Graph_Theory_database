@@ -39,7 +39,7 @@ concept_rectangular_graph <- rrel_key_sc_element:
 				<= nrel_using_constants:
 				{	
 				concept_plane_graph;
-				rrel_node;
+				rrel_node
 				};;
 		*);;
 	*);;

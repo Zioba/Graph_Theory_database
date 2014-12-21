@@ -21,7 +21,7 @@ concept_directed_branching
 		{
 			concept_directed_graph;
 			concept_directed_tree;
-			concept_branching;
+			concept_branching
 		};;
 
 concept_graph => nrel_inclusion:concept_directed_branching;;
