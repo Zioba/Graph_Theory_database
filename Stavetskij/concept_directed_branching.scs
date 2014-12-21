@@ -9,8 +9,7 @@ concept_directed_branching
 		...  
 		(*<-sc_definition;;
 		=> nrel_main_idtf: [Опр.(Ориентированный лес)] (* <- lang_ru;; *);;
-		<=nrel_sc_text_translation:
-		...
+		<=nrel_sc_text_translation: ...
 			(*
 			-> rrel_example: 
 				[Ориентированный лес – лес, каждая компонента связности которого есть ордерево.] (*<-lang_ru;;*);;

@@ -13,8 +13,13 @@ concept_star_graph
 		...
 			(*
 			-> rrel_example: 
-				[Граф-звезда — это полный двудольный граф K1,k: дерево с одним внутренним узлом и k листьями.] (*<-lang_ru;;*);;
+				[Граф-звезда — это полный двудольный граф K1,k: дерево с одним внутренней вершиной и k листьями.] (*<-lang_ru;;*);;
 			*);;
+			<= nrel_using_constants: {
+				rrel_vertex;
+				concept_bigraph;
+				concept_complete_graph
+			};;
 		*);
 
 	<- rrel_key_sc_element: 
@@ -26,6 +31,9 @@ concept_star_graph
 			-> rrel_example: 
 				[Граф-звезда с тремя ребрами называется лапа или клешня] (* <- lang_ru;; *);;
 			*);;
+			<= nrel_using_constants: {
+				rrel_edge;
+			};;
 		*);
 
 	<- rrel_key_sc_element: 

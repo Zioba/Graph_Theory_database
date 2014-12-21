@@ -1,0 +1,23 @@
+sc_node_not_relation -> concept_chord_of_graph;;
+concept_chord_of_graph
+
+	=> nrel_main_idtf: 
+		[хорда графа] (* <-lang_ru;; *);
+		[hord of a graph] (* <-lang_en;; *);
+
+	<-rrel_key_sc_element:
+		...  
+		(*<-sc_definition;;
+		=> nrel_main_idtf: [Опр.(хода графа граф)] (* <- lang_ru;; *);;
+		<=nrel_sc_text_translation:
+		...
+			(*
+			-> rrel_example: 
+				[Ребро графа, не принадлежащее его дереву.] (*<-lang_ru;;*);;
+			<= nrel_using_constants: {
+				rrel_edge;
+				concept_graph;
+				contept_concept_tree
+			};;
+			*);;
+		*);;
