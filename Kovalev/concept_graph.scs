@@ -26,6 +26,12 @@ concept_graph <= nrel_subdividing:
 	};;
 concept_graph <= nrel_subdividing: 
 	{  
+	concept_planar_graph;
+	concept_unplanar_graph
+	};;
+
+concept_graph <= nrel_subdividing: 
+	{  
 
 	concept_empty_graph;
 	concept_not_empty_graph
