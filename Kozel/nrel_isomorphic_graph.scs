@@ -7,7 +7,7 @@ nrel_graph_isomorphism
 
 => nrel_arity_of_relations: 3 (* <- number ;;*);
 
-	->rrel_key_sc_element:
+	<-rrel_key_sc_element:
 		...  
 		(*<-sc_definition;;
 	=> nrel_main_idtf: [Опр.(изоморфизм графов)] (* <- lang_ru;; *);;

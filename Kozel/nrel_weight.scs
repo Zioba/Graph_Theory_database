@@ -1,10 +1,13 @@
 sc_node_norole_relation ->nrel_weight;;
+
 nrel_weight
+	=> nrel_arity_of_relations: 3 (* <- number ;;*);
+	
 	=> nrel_main_idtf: 
 		[вес*] (* <-lang_ru;; *);
 		[weight*] (* <-lang_en;; *);
 	=> nrel_idtf : [вес ребра*]  (* <-lang_ru;; *);
-	->rrel_key_sc_element:
+	<-rrel_key_sc_element:
 		...  
 		(*<-sc_definition;;
 	=> nrel_main_idtf: [Опр.(вес ребра)] (* <- lang_ru;; *);;
@@ -40,8 +43,9 @@ nrel_weight
 		};;
 	*);
 
- => nrel_first_domain: rrel_edge;
-=>nrel_second_domain :number;
+=>nrel_first_domain : concept_graph;
+ => nrel_second_domain: rrel_edge;
+=>nrel_third_domain :number;
 
 <- rrel_key_sc_element: 
 	...

@@ -6,7 +6,7 @@ nrel_complement_graph
 
 => nrel_arity_of_relations: 2 (* <- number ;;*);
 
-	->rrel_key_sc_element:
+	<-rrel_key_sc_element:
 		...  
 		(*<-sc_definition;;
 	=> nrel_main_idtf: [Опр.(дополнение графа)] (* <- lang_ru;; *);;
