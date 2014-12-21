@@ -27,7 +27,7 @@ nrel_matching <- rrel_key_sc_element:
 		<= nrel_using_constants:
 				{
 				concept_graph;
-				rrel_edge;
+				concept_edge;
 				finite_sc_set
 				};;
 		*);;

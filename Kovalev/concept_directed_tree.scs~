@@ -19,9 +19,9 @@ concept_directed_tree <- rrel_key_sc_element:
 					*);;
 					<= nrel_using_constants:
 					{
-						rrel_vertex;
-						rrel_arc;
-						concept_tree
+						concept_vertex;
+						concept_arc/*;
+						concept_tree*/
 					};;		
 		
 				*);;
@@ -38,7 +38,7 @@ concept_directed_tree <- rrel_key_sc_element:
 			<= nrel_using_constants:
 			{ 
 				concept_leaf_vertex;
-				rrel_vertex
+				concept_vertex
 			};;
 			*);;
 		*);;

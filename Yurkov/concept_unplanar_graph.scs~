@@ -37,4 +37,3 @@ concept_unplanar_graph <- rrel_key_sc_element:
 	*);;
 
 concept_graph => nrel_inclusion: concept_unplanar_graph;;
-concept_unplanar_graph <=> nrel_antipode: concept_planar_graph;;

@@ -6,8 +6,10 @@ nrel_subgraph=>nrel_main_idtf:
 	[subgraph*]
 		(*<-lang_en;;*);;
 
-nrel_subgraph => nrel_arity_of_relations: 3
+nrel_subgraph => nrel_arity_of_relations: 2 
 	(* <- number ;;*);;
+
+nrel_subgraph <- binary_relation;;
 
 nrel_subgraph <- reflexive_relation;;
 
@@ -29,8 +31,8 @@ nrel_subgraph <- rrel_key_sc_element:
 				(* <- lang_ru;; *);;
 		<= nrel_using_constants:
 				{
-				rrel_vertex;
-				rrel_edge;
+				concept_vertex;
+				concept_edge;
 				concept_graph
 				};;
 		*);;
