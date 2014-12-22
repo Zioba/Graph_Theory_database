@@ -32,7 +32,7 @@ concept_star_graph
 				[Граф-звезда с тремя ребрами называется лапа или клешня] (* <- lang_ru;; *);;
 			*);;
 			<= nrel_using_constants: {
-				rrel_edge;
+				rrel_edge
 			};;
 		*);
 
