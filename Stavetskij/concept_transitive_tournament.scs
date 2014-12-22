@@ -1,10 +1,11 @@
-sc_node_not_relation -> concept_transitive_tournament;;
+sc_node_not_relation -> concept_transitive_tournamentп;;
 
 concept_transitive_tournament => nrel_main_idtf:
 	[турнир] (* <- lang_ru;;	*);
-	[transitive tournament] (* <- lang_en;;	*);
+	[transitive tournament] (* <- lang_en;;	*);;
 
-concept_transitive_tournament <- rrel_key_sc_element: ...  (*
+concept_transitive_tournament <- rrel_key_sc_element: ...  
+	(*
 	=> nrel_main_idtf: [Опр.(транзитивный турнир)] (* <- lang_ru;; *);;
 	<- sc_explanation;; 
 	<= nrel_sc_text_translation: ... (*
