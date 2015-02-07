@@ -1,11 +1,17 @@
 sc_node_norole_relation ->nrel_graphs_edge_contraction;;
 
+sc_relation -> nrel_graphs_edge_contraction;;
+
+ternary_relation -> nrel_graphs_edge_contraction;;
+
+oriented_relation -> nrel_graphs_edge_contraction;;
+
 nrel_graphs_edge_contraction
 	=> nrel_main_idtf: 
 		[ стягивание ребра графа* ] (* <-lang_ru;; *);
 		[ graph's edge contraction* ] (* <-lang_en;; *);
 
-=> nrel_arity_of_relations: 3 (* <- number ;;*);
+//=> nrel_arity_of_relations: 3 (* <- number ;;*);
 
 	<-rrel_key_sc_element:
 		...  

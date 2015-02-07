@@ -1,11 +1,17 @@
 sc_node_norole_relation ->nrel_graph_intersection;;
 
+sc_relation -> nrel_graph_intersection;;
+
+ternary_relation -> nrel_graph_intersection;;
+
+oriented_relation -> nrel_graph_intersection;;
+
 nrel_graph_intersection
 	=> nrel_main_idtf: 
 		[ пересечение графов* ] (* <-lang_ru;; *);
 		[ graph intersection* ] (* <-lang_en;; *);
 
-=> nrel_arity_of_relations: 3 (* <- number ;;*);
+//=> nrel_arity_of_relations: 3 (* <- number ;;*);
 
 	<-rrel_key_sc_element:
 		...  

@@ -1,11 +1,17 @@
 sc_node_norole_relation ->nrel_graph_isomorphism;;
 
+sc_relation -> nrel_graph_isomorphism;;
+
+ternary_relation -> nrel_graph_isomorphism;;
+
+oriented_relation -> nrel_graph_isomorphism;;
+
 nrel_graph_isomorphism
 	=> nrel_main_idtf: 
 		[ изоморфизм графов* ] (* <-lang_ru;; *);
 		[ graph isomorphism* ] (* <-lang_en;; *);
 
-=> nrel_arity_of_relations: 3 (* <- number ;;*);
+//=> nrel_arity_of_relations: 3 (* <- number ;;*);
 
 	<-rrel_key_sc_element:
 		...  

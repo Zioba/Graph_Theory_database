@@ -1,11 +1,17 @@
 sc_node_norole_relation ->nrel_tree_height;;
 
+sc_relation -> nrel_tree_height;;
+
+binary_relation -> nrel_tree_height;;
+
+oriented_relation ->nrel_tree_height;;
+
 nrel_tree_height
 	=> nrel_main_idtf: 
 		[ высота дерева* ] (* <-lang_ru;; *);
 		[ height of tree* ] (* <-lang_en;; *);
 
-=> nrel_arity_of_relations: 2 (* <- number ;;*);
+//=> nrel_arity_of_relations: 2 (* <- number ;;*);
 
 	<-rrel_key_sc_element:
 		...  

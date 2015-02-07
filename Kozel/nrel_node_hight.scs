@@ -1,11 +1,17 @@
 sc_node_norole_relation ->nrel_node_height;;
 
+sc_relation -> nrel_node_height;;
+
+ternary_relation -> nrel_node_height;;
+
+oriented_relation ->nrel_node_height;;
+
 nrel_node_height
 	=> nrel_main_idtf: 
 		[ высота вершиы* ] (* <-lang_ru;; *);
 		[ height of node* ] (* <-lang_en;; *);
 
-=> nrel_arity_of_relations: 3 (* <- number ;;*);
+//=> nrel_arity_of_relations: 3 (* <- number ;;*);
 
 	<-rrel_key_sc_element:
 		...  
