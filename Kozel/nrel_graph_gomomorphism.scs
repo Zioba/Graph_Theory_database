@@ -1,11 +1,17 @@
 sc_node_norole_relation ->nrel_graph_gomomorphism;;
 
+sc_relation ->nrel_graph_gomomorphism;;
+
+oriented_relation -> nrel_graph_gomomorphism;;
+
+ternary_relation -> nrel_graph_gomomorphism;;
+
 nrel_graph_gomomorphism
 	=> nrel_main_idtf: 
 		[ гомоморфизм графов* ] (* <-lang_ru;; *);
 		[ graph gomomorphism* ] (* <-lang_en;; *);
 
-=> nrel_arity_of_relations: 3 (* <- number ;;*);
+//=> nrel_arity_of_relations: 3 (* <- number ;;*);
 
 	<-rrel_key_sc_element:
 		...  

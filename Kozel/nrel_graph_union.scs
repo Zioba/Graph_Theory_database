@@ -1,11 +1,17 @@
 sc_node_norole_relation ->nrel_graph_union;;
 
+sc_relation -> nrel_graph_union;;
+
+ternary_relation -> nrel_graph_union;;
+
+oriented_relation -> nrel_graph_union;;
+
 nrel_graph_union
 	=> nrel_main_idtf: 
 		[ объединение графов* ] (* <-lang_ru;; *);
 		[ graph union* ] (* <-lang_en;; *);
 
-=> nrel_arity_of_relations: 3 (* <- number ;;*);
+//=> nrel_arity_of_relations: 3 (* <- number ;;*);
 
 	<-rrel_key_sc_element:
 		...  

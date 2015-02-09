@@ -49,4 +49,4 @@ concept_tree <- rrel_key_sc_element:
 				"file://contents/tree.png";;
 			*);;
 	*);;
-concept_acyclic_graph => nrel_inclusion: concept_tree;;
+concept_acyclic_graph <= nrel_inclusion: concept_tree;;
