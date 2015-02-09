@@ -15,16 +15,17 @@ concept_empty_graph
 ...
 (*
 -> rrel_example:
-[Пустой граф - регулярный граф степени 0, то есть граф, не содержащий рёбер.] (*<-lang_ru;;*);;
+[Пустой граф - регулярный граф степени 0, то есть граф, не содержащий рёбер.] (*<-lang_ru;;*);;	
+*);;
+*);
+
 <= nrel_using_constants:
 	{
 		concept_graph;
 		concept_regular_graph;
 		rrel_edge;
 		nrel_vertex_degree
-	};;	
-*);;
-*);
+	};
 
 <- rrel_key_sc_element:
 ...

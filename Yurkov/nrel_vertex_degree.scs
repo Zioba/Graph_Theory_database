@@ -40,17 +40,18 @@ nrel_vertex_degree <- rrel_key_sc_element:
 		-> rrel_example: 
 			[Степень вершины - количество ребер, инцидентных этой вершине.]
 			(* <- lang_ru;; *);;
-			<= nrel_using_constants:
+		*);;
+	*);; 
+
+nrel_vertex_degree <= nrel_using_constants:
 			{
 				rrel_vertex;
 				rrel_edge
 			};;
-		*);;
-	*);; 
 
-nrel_diametr->rrel_example:(V1 => 5);;
+nrel_vertex_degree->rrel_example:(V1 => 5);;
 
-G0
+V1
 <-rrel_vertex;;
 
 5

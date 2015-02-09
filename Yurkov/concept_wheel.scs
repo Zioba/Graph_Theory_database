@@ -16,14 +16,15 @@ concept_wheel
 (*
 -> rrel_example:
 [Колесом называется граф с n вершинами (n ≥ 4), образованный соединением единственной вершины со всеми вершинами (n-1)-цикла.] (*<-lang_ru;;*);;
+*);;
+*);
+
 <= nrel_using_constants:
 	{
 		concept_graph;
 		rrel_vertex;
 		nrel_cycle
-	};;	
-*);;
-*);
+	};
 
 <- rrel_key_sc_element:
 ...

@@ -15,15 +15,16 @@ concept_cubic_graph
 ...
 (*
 -> rrel_example:
-[Кубический граф — регулярный граф, в котором все вершины имеют степень три.] (*<-lang_ru;;*);;
+[Кубический граф — регулярный граф, в котором все вершины имеют степень три.] (*<-lang_ru;;*);;	
+*);;
+*);
+
 <= nrel_using_constants:
 	{
 		concept_regular_graph;
 		rrel_vertex;
 		nrel_vertex_degree
-	};;	
-*);;
-*);
+	};
 
 <- rrel_key_sc_element:
 ...

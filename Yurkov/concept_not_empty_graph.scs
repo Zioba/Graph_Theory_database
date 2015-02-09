@@ -15,14 +15,17 @@ concept_not_empty_graph
 ...
 (*
 -> rrel_example:
-[Непустой граф - граф, содержащий рёбра.] (*<-lang_ru;;*);;
+[Непустой граф - граф, содержащий рёбра.] (*<-lang_ru;;*);;	
+*);;
+*);
+
+
 <= nrel_using_constants:
 	{
 		concept_graph;
 		rrel_edge
-	};;	
-*);;
-*);
+	};
+
 
 <- rrel_key_sc_element:
 ...

@@ -16,15 +16,16 @@ concept_regular_graph <- rrel_key_sc_element:
 		-> rrel_example: 
 			[Регулярный граф — граф, степени всех вершин которого равны, то есть каждая вершина имеет одинаковое количество соседей.]
 			(* <- lang_ru;; *);;
-			<= nrel_using_constants:
+		*);;
+	*);;
+
+
+concept_regular_graph <= nrel_using_constants:
 			{	
 			concept_graph:
 			rrel_vertex;
 			nrel_vertex_degree
 			};;
-		*);;
-	*);;
-
 
 concept_regular_graph <- rrel_key_sc_element: 
 	...

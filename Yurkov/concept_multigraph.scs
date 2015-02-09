@@ -16,14 +16,15 @@ concept_multigraph <- rrel_key_sc_element:
 			-> rrel_example: 
 				[Мультиграф - граф, в котором две вершины могут быть соединены более чем одним ребром. ]
 					(* <- lang_ru;;*);;
-			<= nrel_using_constants:
+			*);;
+		*);;
+
+concept_multigraph <= nrel_using_constants:
 				{
 					concept_graph;
 					rrel_edge;
 					rrel_vertex
 				};;
-			*);;
-		*);;
 
 concept_multigraph <- rrel_key_sc_element: 
 	...

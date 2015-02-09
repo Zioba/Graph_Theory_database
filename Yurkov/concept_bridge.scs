@@ -12,15 +12,16 @@ concept_bridge<-rrel_key_sc_element:
 			(*
 			-> rrel_example:
 			[Mостом называется ребро, удаление которого увеличивает число компонент связности.] (*<-lang_ru;;*);;
-			<= nrel_using_constants:
-			{
-			rrel_edge;
-			nrel_connected_component
-			};;	
 			*);;
 	*);;
 
-concept_bridge<- rrel_key_sc_element: 
+concept_bridge <= nrel_using_constants:
+	{
+	rrel_edge;
+	nrel_connected_component
+	};;
+
+concept_bridge <- rrel_key_sc_element: 
 	...
 	(*
 	<- sc_illustration;;

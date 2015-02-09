@@ -16,7 +16,11 @@ concept_pseudograph <- rrel_key_sc_element:
 		-> rrel_example: 
 			[Псевдограф (Pseudograph) — граф, в котором, как и в мультиграфе, допускаются кратные ребра и, кроме того, допускаются петли, причем возможно даже несколько петель при одной вершине.]
 			(* <- lang_ru;; *);;
-			<= nrel_using_constants:
+		*);;
+	*);;
+
+
+concept_pseudograph <= nrel_using_constants:
 			{	
 			concept_graph;
 			concept_multigraph;
@@ -25,8 +29,6 @@ concept_pseudograph <- rrel_key_sc_element:
 			rrel_vertex;
 			rrel_arc
 			};;
-		*);;
-	*);;
 
 
 concept_pseudograph <- rrel_key_sc_element: 

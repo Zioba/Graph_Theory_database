@@ -44,14 +44,16 @@ nrel_diametr <- rrel_key_sc_element:
 		-> rrel_example: 
 			[Диаметром связного графа называется максимально возможное расстояние между двумя его вершинами.]
 			(* <- lang_ru;; *);;
-			<= nrel_using_constants:
+		*);;
+	*);; 
+
+
+nrel_diametr <= nrel_using_constants:
 			{
 				rrel_vertex;
 				concept_eccentricity;
 				concept_graph
 			};;
-		*);;
-	*);; 
 
 nrel_diametr <- rrel_key_sc_element:...
 			(*
