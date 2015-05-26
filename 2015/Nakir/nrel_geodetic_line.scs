@@ -3,6 +3,7 @@ binary_relation -> nrel_geodetic_line;;
 oriented_relation ->nrel_geodetic_line;;
 
 nrel_geodetic_line
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ геодезическая линия* ] (* <-lang_ru;; *);
 		[ geodetic line* ] (* <-lang_en;; *);

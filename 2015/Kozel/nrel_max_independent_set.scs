@@ -4,6 +4,7 @@ binary_relation -> nrel_max_independent_set;;
 oriented_relation -> nrel_max_independent_set;;
 
 nrel_max_independent_set
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ наибольшее независимое множество* ] (* <-lang_ru;; *);
 		[ the highest independent set* ] (* <-lang_en;; *);

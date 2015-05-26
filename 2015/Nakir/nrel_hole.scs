@@ -3,6 +3,7 @@ binary_relation -> nrel_hole;;
 oriented_relation ->nrel_hole;;
 
 nrel_hole
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ дыра* ] (* <-lang_ru;; *);
 		[ hole* ] (* <-lang_en;; *);

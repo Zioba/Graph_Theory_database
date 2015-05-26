@@ -4,6 +4,7 @@ binary_relation -> nrel_min_independent_set_of_vertices;;
 oriented_relation -> nrel_min_independent_set_of_vertices;;
 
 nrel_min_independent_set_of_vertices
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[минимальное вершинное покрытие* ] (* <-lang_ru;; *);
 		[minimal vertex cover* ] (* <-lang_en;; *);

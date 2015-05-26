@@ -3,6 +3,7 @@ binary_relation -> nrel_self_dual_graph;;
 non_oriented_relation ->nrel_self_dual_graph;;
 
 nrel_self_dual_graph
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ самодвойственный граф* ] (* <-lang_ru;; *);
 		[ self-dual graph* ] (* <-lang_en;; *);

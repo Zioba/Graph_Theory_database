@@ -3,6 +3,7 @@ binary_relation -> nrel_antihole;;
 oriented_relation ->nrel_antihole;;
 
 nrel_antihole
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ антидыра* ] (* <-lang_ru;; *);
 		[ antihole* ] (* <-lang_en;; *);

@@ -3,6 +3,7 @@ binary_relation -> nrel_hadwiger_number;;
 oriented_relation ->nrel_hadwiger_number;;
 
 nrel_hadwiger_number
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ число Хадвигера* ] (* <-lang_ru;; *);
 		[ hadwiger number* ] (* <-lang_en;; *);

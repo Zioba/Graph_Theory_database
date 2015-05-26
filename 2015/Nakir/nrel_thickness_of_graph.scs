@@ -3,6 +3,7 @@ binary_relation -> nrel_thickness_of_graph;;
 oriented_relation ->nrel_thickness_of_graph;;
 
 nrel_thickness_of_graph
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ толщина графа* ] (* <-lang_ru;; *);
 		[ thickness of a graph* ] (* <-lang_en;; *);

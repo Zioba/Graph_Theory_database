@@ -1,6 +1,7 @@
 sc_node_not_relation -> nrel_cyclomatic_number_of_the_graph;;
 
 nrel_cyclomatic_number_of_the_graph
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[Цикломатическое число графа*] (* <-lang_ru;; *);
 		[сyclomatic number of the graph*] (* <-lang_en;; *);

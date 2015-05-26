@@ -3,6 +3,7 @@ binary_relation -> nrel_vertex_covering;;
 oriented_relation ->nrel_vertex_covering;;
 
 nrel_vertex_covering
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ вершинное покрытие* ] (* <-lang_ru;; *);
 		[ vertex covering* ] (* <-lang_en;; *);

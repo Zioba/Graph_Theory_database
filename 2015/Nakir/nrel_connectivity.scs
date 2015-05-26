@@ -3,6 +3,7 @@ binary_relation -> nrel_connectivity;;
 oriented_relation ->nrel_connectivity;;
 
 nrel_connectivity
+	<- relation_in_graph;
 => nrel_main_idtf: 
 		[ связность* ] (* <-lang_ru;; *);
 		[ connectivity* ] (* <-lang_en;; *);

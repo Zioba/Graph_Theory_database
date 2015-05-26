@@ -3,6 +3,7 @@ binary_relation -> nrel_linear_subgraph_of_digraph;;
 oriented_relation ->nrel_linear_subgraph_of_digraph;;
 
 nrel_linear_subgraph_of_digraph
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ линейный подграф орграфа* ] (* <-lang_ru;; *);
 		[ linear subgraph of a directed graph* ] (* <-lang_en;; *);

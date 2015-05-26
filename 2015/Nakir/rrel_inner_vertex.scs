@@ -1,6 +1,7 @@
 sc_node_role_relation ->rrel_inner_vertex;;
 
 rrel_inner_vertex
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ внутренняя вершина' ] (* <-lang_ru;; *);
 		[ inner vertex' ] (* <-lang_en;; *);

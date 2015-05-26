@@ -2,6 +2,7 @@ sc_node_norole_relation  -> nrel_chain_in_graph;;
 
 
 nrel_chain_in_graph
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 		[ цепь в графе*] (* <-lang_ru;; *);
 		[ chain in graph*] (* <-lang_en;; *);

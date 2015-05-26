@@ -1,6 +1,7 @@
 sc_node_norole_relation -> nrel_elementary_cycle;; 
 
 nrel_elementary_cycle
+	<- relation_in_graph;
 => nrel_main_idtf:
 [ элементарный цикл* ] (* <-lang_ru;; *);
 [ elementary cycle* ] (* <-lang_en;; *);

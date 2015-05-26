@@ -3,6 +3,7 @@ binary_relation -> nrel_triangle;;
 oriented_relation ->nrel_triangle;;
 
 nrel_triangle
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ треугольник* ] (* <-lang_ru;; *);
 		[ triangle* ] (* <-lang_en;; *);

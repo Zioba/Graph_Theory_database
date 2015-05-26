@@ -3,6 +3,7 @@ binary_relation -> nrel_circumference;;
 oriented_relation ->nrel_circumference;;
 
 nrel_circumference
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ окружение графа* ] (* <-lang_ru;; *);
 		[ circumference of a graph* ] (* <-lang_en;; *);

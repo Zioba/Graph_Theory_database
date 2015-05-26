@@ -1,5 +1,6 @@
 sc_node_role_relation ->rrel_peripherals_vertex;;
 rrel_peripherals_vertex
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 	[ переферийная вершина' ] (* <-lang_ru;; *);
 	[ peripherals vertex' ] (* <-lang_en;; *);

@@ -3,6 +3,7 @@ binary_relation -> nrel_vertex_level;;
 oriented_relation ->nrel_vertex_level;;
 
 nrel_vertex_level
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ уровень вершины* ] (* <-lang_ru;; *);
 		[ vertex level* ] (* <-lang_en;; *);

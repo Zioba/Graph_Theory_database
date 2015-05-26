@@ -1,8 +1,10 @@
 sc_node_norole_relation -> nrel_radius_gt;;
+relation_in_graph - nrel_radius_gt;;
  
 nrel_radius_gt => nrel_main_idtf:
 	[радиус графа*](* <- lang_ru;; *);
 	[radius of the graph*](* <- lang_en;; *);;
+
 
 nrel_radius_gt => nrel_arity_of_relations: 2 (* <- number ;;*);;
 nrel_radius_gt => nrel_idtf: [быть радиусом графа*] (* <- lang_ru;; *);;

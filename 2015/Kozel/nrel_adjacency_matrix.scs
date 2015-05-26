@@ -4,6 +4,7 @@ ternary_relation -> nrel_adjacency_matrix;;
 oriented_relation -> nrel_adjacency_matrix;;
 
 nrel_adjacency_matrix
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ матрица смежности* ] (* <-lang_ru;; *);
 		[ adjacency matrix* ] (* <-lang_en;; *);

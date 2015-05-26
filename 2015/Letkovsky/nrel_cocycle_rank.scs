@@ -1,9 +1,8 @@
 sc_node_norole_relation ->nrel_cocycle_rank;;
 
 nrel_cocycle_rank
-<-numb_characteristics;;
+	<- relation_in_graph;
 
-nrel_cocycle_rank
 => nrel_main_idtf:
 [ коциклический ранг* ] (* <-lang_ru;; *);
 [ cocycle rank* ] (* <-lang_en;; *);

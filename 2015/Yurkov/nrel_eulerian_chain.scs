@@ -2,6 +2,7 @@ sc_node_norole_relation  -> nrel_eulerian_chain;;
 
 
 nrel_eulerian_chain
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 		[ эйлерова цепь*] (* <-lang_ru;; *);
 		[ eulerian chain*] (* <-lang_en;; *);

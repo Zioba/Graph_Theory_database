@@ -1,5 +1,6 @@
 sc_node_role_relation ->rrel_separating_vertex;;
 rrel_separating_vertex
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 	[ разделяющая вершина' ] (* <-lang_ru;; *);
 	[ separating vertex' ] (* <-lang_en;; *);

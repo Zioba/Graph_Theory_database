@@ -3,6 +3,7 @@ binary_relation -> nrel_spanning_forest;;
 non_oriented_relation ->nrel_spanning_forest;;
 
 nrel_spanning_forest
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ лес-каркас* ] (* <-lang_ru;; *);
 		[ spanning forest* ] (* <-lang_en;; *);

@@ -1,5 +1,6 @@
 nrel_graph_invariant
 	<- sc_node_norole_relation;
+	<- relation_in_graph;
 
 	=> nrel_main_idtf: [инвариант графа] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [invariant of a graph] (* <- lang_en;; *);

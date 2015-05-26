@@ -3,6 +3,7 @@ binary_relation -> nrel_mean_diameter;;
 oriented_relation ->nrel_mean_diameter;;
 
 nrel_mean_diameter
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ средний диаметр* ] (* <-lang_ru;; *);
 		[ mean diameter* ] (* <-lang_en;; *);

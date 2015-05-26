@@ -3,6 +3,7 @@ binary_relation -> nrel_geodetic_chain;;
 oriented_relation ->nrel_geodetic_chain;;
 
 nrel_geodetic_chain
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ геодезическая цепь* ] (* <-lang_ru;; *);
 		[ geodetic chain* ] (* <-lang_en;; *);

@@ -4,6 +4,7 @@ binary_relation -> nrel_independent_set_of_vertices;;
 oriented_relation -> nrel_independent_set_of_vertices;;
 
 nrel_independent_set_of_vertices
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ независимое множество вершин* ] (* <-lang_ru;; *);
 		[ independent set of vertices* ] (* <-lang_en;; *);

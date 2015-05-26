@@ -1,6 +1,7 @@
 sc_node_norole_relation  -> nrel_cut;;
 
 nrel_cut
+	<- relation_in_graph;
 
 => nrel_main_idtf:
 [ разрез* ] (* <-lang_ru;; *);

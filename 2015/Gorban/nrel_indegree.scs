@@ -1,5 +1,6 @@
 nrel_indegree
 	<- sc_node_norole_relation;
+	<- relation_in_graph;
 
 	=> nrel_main_idtf: [полустепень захода вершины] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [indegree] (* <- lang_en;; *);

@@ -3,6 +3,7 @@ binary_relation -> nrel_reserve_digraph;;
 non_oriented_relation ->nrel_reserve_digraph;;
 
 nrel_reserve_digraph
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ обратный орграф* ] (* <-lang_ru;; *);
 		[ reserve digraph* ] (* <-lang_en;; *);

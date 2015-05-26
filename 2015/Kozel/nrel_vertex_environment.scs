@@ -4,6 +4,7 @@ binary_relation -> nrel_vertex_environment;;
 oriented_relation -> nrel_vertex_environment;;
 
 nrel_vertex_environment
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ окружение вершины* ] (* <-lang_ru;; *);
 		[ environment of a vertex* ] (* <-lang_en;; *);

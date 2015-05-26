@@ -3,6 +3,7 @@ binary_relation -> nrel_dual_graph;;
 non_oriented_relation ->nrel_dual_graph;;
 
 nrel_dual_graph
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ двойственный граф* ] (* <-lang_ru;; *);
 		[ dual graph* ] (* <-lang_en;; *);

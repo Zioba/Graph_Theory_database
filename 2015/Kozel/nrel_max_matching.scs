@@ -4,6 +4,7 @@ ternary_relation -> nrel_max_matching;;
 oriented_relation -> nrel_max_matching;;
 
 nrel_max_matching
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ максимальное паросочетание * ] (* <-lang_ru;; *);
 		[ maximal matching* ] (* <-lang_en;; *);

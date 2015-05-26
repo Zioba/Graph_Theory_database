@@ -4,6 +4,7 @@ binary_relation -> nrel_number_of_independence;;
 oriented_relation -> nrel_number_of_independence;;
 
 nrel_number_of_independence
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[число независимости графа* ] (* <-lang_ru;; *);
 		[number of independence* ] (* <-lang_en;; *);

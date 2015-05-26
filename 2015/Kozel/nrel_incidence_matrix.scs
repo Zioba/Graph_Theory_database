@@ -4,6 +4,7 @@ ternary_relation -> nrel_incidence_matrix;;
 oriented_relation -> nrel_incidence_matrix;;
 
 nrel_incidence_matrix
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ матрица инцидентности* ] (* <-lang_ru;; *);
 		[ incidence matrix* ] (* <-lang_en;; *);

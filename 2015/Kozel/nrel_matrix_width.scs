@@ -4,6 +4,7 @@ binary_relation -> nrel_matrix_width;;
 oriented_relation ->nrel_matrix_width;;
 
 nrel_matrix_width
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ширина матрицы* ] (* <-lang_ru;; *);
 		[the width of the matrix*] (* <-lang_en;; *);

@@ -3,6 +3,7 @@ binary_relation -> nrel_perfect_matching;;
 non_oriented_relation ->nrel_perfect_matching;;
 
 nrel_perfect_matching
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ совершенное паросочетание* ] (* <-lang_ru;; *);
 		[ perfect matching* ] (* <-lang_en;; *);

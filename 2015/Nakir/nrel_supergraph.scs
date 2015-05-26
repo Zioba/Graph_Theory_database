@@ -3,6 +3,7 @@ binary_relation -> nrel_supergraph;;
 oriented_relation ->nrel_supergraph;;
 
 nrel_supergraph
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ надграф* ] (* <-lang_ru;; *);
 		[ supergraph* ] (* <-lang_en;; *);

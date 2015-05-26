@@ -3,6 +3,7 @@ binary_relation -> nrel_adjacency;;
 oriented_relation ->nrel_adjacency;;
 
 nrel_adjacency
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ смежность* ] (* <-lang_ru;; *);
 		[ adjacency* ] (* <-lang_en;; *);

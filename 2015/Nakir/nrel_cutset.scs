@@ -3,6 +3,7 @@ binary_relation -> nrel_cutset;;
 oriented_relation ->nrel_cutset;;
 
 nrel_cutset
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ сечение* ] (* <-lang_ru;; *);
 		[ cutting set* ] (* <-lang_en;; *);

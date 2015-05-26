@@ -4,6 +4,7 @@ binary_relation -> nrel_maxi_code;;
 oriented_relation -> nrel_maxi_code;;
 
 nrel_maxi_code
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[Макси-код*] (* <-lang_ru;; *);
 		[Maxicode*] (* <-lang_en;; *);

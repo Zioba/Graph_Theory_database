@@ -3,6 +3,7 @@ binary_relation -> nrel_spectrum;;
 oriented_relation ->nrel_spectrum;;
 
 nrel_spectrum
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ спектр графа* ] (* <-lang_ru;; *);
 		[ spectrum of a graph* ] (* <-lang_en;; *);

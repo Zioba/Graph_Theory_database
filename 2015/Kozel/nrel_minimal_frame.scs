@@ -4,6 +4,7 @@ binary_relation -> nrel_minimal_frame;;
 oriented_relation -> nrel_minimal_frame;;
 
 nrel_minimal_frame
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ минимальный каркас* ] (* <-lang_ru;; *);
 		[ minimal frame* ] (* <-lang_en;; *);

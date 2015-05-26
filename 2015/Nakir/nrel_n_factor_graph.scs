@@ -3,6 +3,7 @@ binary_relation -> nrel_n_factor_graph;;
 oriented_relation ->nrel_n_factor_graph;;
 
 nrel_n_factor_graph
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ n-Фактор графа* ] (* <-lang_ru;; *);
 		[ n-Factor of a graph* ] (* <-lang_en;; *);

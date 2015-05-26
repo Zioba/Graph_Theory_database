@@ -3,6 +3,7 @@ binary_relation -> nrel_reachability;;
 oriented_relation ->nrel_reachability;;
 
 nrel_reachability
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ достижимость* ] (* <-lang_ru;; *);
 		[ reachability* ] (* <-lang_en;; *);

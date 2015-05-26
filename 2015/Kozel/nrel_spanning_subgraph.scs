@@ -5,6 +5,7 @@ nrel_spanning_subtree => nrel_main_idtf:
 	[spanning subtree*]
 	(* <- lang_en;;	*);;
 
+relation_in_graph -> nrel_spanning_subtree;;
 sc_relation -> nrel_spanning_subtree;;
 binary_relation -> nrel_spanning_subtree;;
 oriented_relation ->nrel_spanning_subtree;;

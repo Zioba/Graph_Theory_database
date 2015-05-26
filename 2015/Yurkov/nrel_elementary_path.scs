@@ -2,6 +2,7 @@ sc_node_norole_relation  -> nrel_elementary_path;;
 
 
 nrel_elementary_path
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 		[ элементарный путь*] (* <-lang_ru;; *);
 		[ elementary path*] (* <-lang_en;; *);

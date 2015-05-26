@@ -4,6 +4,7 @@ binary_relation -> nrel_graph_minor;;
 oriented_relation -> nrel_graph_minor;;
 
 nrel_graph_minor
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[Минор графа* ] (* <-lang_ru;; *);
 		[Graph minor* ] (* <-lang_en;; *);

@@ -1,6 +1,7 @@
 nrel_finish_vertex
 	<- sc_node_norole_relation;
 	<- binary_relation;
+	<- relation_in_graph;
 
 	=> nrel_main_idtf: [конечная вершина] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [finish vertex] (* <- lang_en;; *);

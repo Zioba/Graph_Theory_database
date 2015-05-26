@@ -1,4 +1,5 @@
 sc_node_norole_relation->nrel_path_gt;;
+relation_in_graph -> nrel_path_gt;;
 
 nrel_path_gt => nrel_main_idtf:
 	[путь в графе*](*<-lang_ru;;*);

@@ -4,6 +4,7 @@ binary_relation -> nrel_mini_code;;
 oriented_relation -> nrel_mini_code;;
 
 nrel_mini_code
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[Мини-код*] (* <-lang_ru;; *);
 		[Mini code*] (* <-lang_en;; *);

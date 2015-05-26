@@ -1,6 +1,7 @@
 sc_node_role_relation ->rrel_chord_graph;;
 
 rrel_chord_graph
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 		[ хорда графа' ] (* <-lang_ru;; *);
 		[ chord graph' ] (* <-lang_en;; *);

@@ -4,6 +4,7 @@ ternary_relation -> nrel_independent_vertex;;
 oriented_relation ->nrel_independent_vertex;;
 
 nrel_independent_vertex
+	<- relation_in_graph;
 => nrel_arity_of_relations: 3 (* <- number ;;*);
 => nrel_main_idtf: 
 		[ независимые вершины* ] (* <-lang_ru;; *);

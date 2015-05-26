@@ -4,6 +4,7 @@ ternary_relation -> nrel_reachability_matrix;;
 oriented_relation -> nrel_reachability_matrix;;
 
 nrel_reachability_matrix
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ матрица достижимости* ] (* <-lang_ru;; *);
 		[ reahability matrix* ] (* <-lang_en;; *);

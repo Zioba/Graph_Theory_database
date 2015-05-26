@@ -1,5 +1,6 @@
 sc_node_role_relation ->rrel_tree_root;;
 rrel_tree_root
+	<- relation_in_graph;
 => nrel_main_idtf:
 	[корень дерева' ] (* <-lang_ru;; *);
 	[tree root' ] (* <-lang_en;; *);

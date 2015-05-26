@@ -3,6 +3,7 @@ binary_relation -> nrel_inseparation_number;;
 oriented_relation ->nrel_inseparation_number;;
 
 nrel_inseparation_number
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ число внутреннего разделения* ] (* <-lang_ru;; *);
 		[ inseparation number* ] (* <-lang_en;; *);

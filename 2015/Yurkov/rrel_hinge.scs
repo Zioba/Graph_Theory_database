@@ -1,5 +1,6 @@
 sc_node_role_relation ->rrel_hinge;;
 rrel_hinge
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 	[ шарнир' ] (* <-lang_ru;; *);
 	[ hinge' ] (* <-lang_en;; *);

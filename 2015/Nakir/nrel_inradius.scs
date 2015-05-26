@@ -3,6 +3,7 @@ binary_relation -> nrel_inradius;;
 oriented_relation ->nrel_inradius;;
 
 nrel_inradius
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ внутренний радиус* ] (* <-lang_ru;; *);
 		[ inradius* ] (* <-lang_en;; *);

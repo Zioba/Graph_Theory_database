@@ -3,6 +3,7 @@ binary_relation -> nrel_n_factorization;;
 non_oriented_relation ->nrel_n_factorization;;
 
 nrel_n_factorization
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ n-факторизация графа* ] (* <-lang_ru;; *);
 		[ n-factorization of a graph* ] (* <-lang_en;; *);

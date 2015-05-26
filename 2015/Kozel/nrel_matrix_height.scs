@@ -4,6 +4,7 @@ binary_relation -> nrel_matrix_height;;
 oriented_relation ->nrel_matrix_height;;
 
 nrel_matrix_height
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[высота матрицы* ] (* <-lang_ru;; *);
 		[the height of the matrix*] (* <-lang_en;; *);

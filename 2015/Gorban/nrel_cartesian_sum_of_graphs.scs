@@ -2,6 +2,7 @@ nrel_cartesian_sum_of_graphs
 	<- sc_relation;
 	<- thenary_relation;
 	<- oriented_relation;
+	<- relation_in_graph;
 
 	=> nrel_main_idtf: [Декартова сумма графов] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Cartesian sum of graphs] (* <- lang_en;; *);

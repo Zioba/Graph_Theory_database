@@ -1,6 +1,7 @@
 sc_node_role_relation ->rrel_hamiltonian_center;;
 
 rrel_hamiltonian_center
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 	[ гамильтонов центр' ] (* <-lang_ru;; *);
 	[ hamiltonian center' ] (* <-lang_en;; *);

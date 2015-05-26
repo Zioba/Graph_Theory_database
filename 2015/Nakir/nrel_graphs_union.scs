@@ -3,6 +3,7 @@ ternary_relation -> nrel_graphs_union;;
 oriented_relation ->nrel_graphs_union;;
 
 nrel_graphs_union
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ соединение графов* ] (* <-lang_ru;; *);
 		[ graphs union* ] (* <-lang_en;; *);

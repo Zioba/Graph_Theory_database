@@ -3,6 +3,7 @@ binary_relation -> nrel_incentre;;
 oriented_relation ->nrel_incentre;;
 
 nrel_incentre
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ внутренний центр* ] (* <-lang_ru;; *);
 		[ incentre* ] (* <-lang_en;; *);

@@ -2,6 +2,7 @@ sc_node_norole_relation  -> nrel_elementary_chain;;
 
 
 nrel_elementary_chain
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 		[ элементарная цепь*] (* <-lang_ru;; *);
 		[ elementary chain*] (* <-lang_en;; *);

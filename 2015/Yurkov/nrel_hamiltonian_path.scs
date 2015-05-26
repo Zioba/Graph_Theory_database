@@ -2,6 +2,7 @@ sc_node_norole_relation -> nrel_hamiltonian_path;;
 
 
 nrel_hamiltonian_path
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 		[ гамильтонов путь*] (* <-lang_ru;; *);
 		[ hamiltonian path*] (* <-lang_en;; *);

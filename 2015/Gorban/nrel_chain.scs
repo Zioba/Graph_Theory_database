@@ -2,6 +2,7 @@ nrel_chain
 	<- sc_relation;
 	<- binary_relation;
 	<- oriented_relation;
+	<- relation_in_graph;
 
 	=> rel_main_idtf: [подцепь*] (* <- lang_ru;; *);
 	=> rel_main_idtf: [subchain*] (* <- lang_en;; *);

@@ -2,6 +2,7 @@ sc_node_norole_relation  -> nrel_hamiltonian_chain;;
 
 
 nrel_hamiltonian_chain
+	<- relation_in_graph;
 	=> nrel_main_idtf:
 		[ гамильтонова цепь*] (* <-lang_ru;; *);
 		[ hamiltonian chain*] (* <-lang_en;; *);

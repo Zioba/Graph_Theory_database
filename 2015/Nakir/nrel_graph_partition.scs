@@ -3,6 +3,7 @@ binary_relation -> nrel_graph_partition;;
 oriented_relation ->nrel_graph_partition;;
 
 nrel_graph_partition
+	<- relation_in_graph;
 	=> nrel_main_idtf: 
 		[ разбиение графа* ] (* <-lang_ru;; *);
 		[ graph partition* ] (* <-lang_en;; *);
