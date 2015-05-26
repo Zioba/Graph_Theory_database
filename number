@@ -1,0 +1,6 @@
+sc_node_not_relation->number;;
+
+number=> nrel_main_idtf: 
+		[число] (* <-lang_ru;; *);
+		[number] (* <-lang_en;; *);;
+

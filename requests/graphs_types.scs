@@ -1,0 +1,3 @@
+graph_types=> nrel_main_idtf: 
+		[виды графов] (* <-lang_ru;; *);
+		[graph types] (* <-lang_en;; *);;

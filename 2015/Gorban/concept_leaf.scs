@@ -1,0 +1,15 @@
+concept_leaf
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf: [лист] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [leaf] (* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ... (*
+		<- sc_definition;;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [Максимальный связный подграф, не содержащий мостов.] (* <- lang_ru;; *);;
+			<= nrel_using_constants: {
+				concept_vertex
+			};;
+		*);;
+	*);;

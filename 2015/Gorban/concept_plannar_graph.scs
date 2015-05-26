@@ -1,0 +1,15 @@
+concept_plannar_graph
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf: [планарный граф] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [planar graph] (* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ... (*
+		<- sc_definition;;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [граф, изображенный на плоскости так, что никакие два ребра не имеют общих точек, кроме инцидентной им обоим вершины] (* <- lang_ru;; *);;
+			<= nrel_using_constants: {
+				concept_arc
+				};;
+			*);;
+	*);;

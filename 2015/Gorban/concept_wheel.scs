@@ -1,0 +1,15 @@
+concept_wheel
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf: [колесо] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [wheel] (* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ... (*
+		<- sc_definition;;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [граф, определяемый как W(_n) = K(_1) + C(_n)(_-) (_1), т.е. n-вершинный граф, у которого n-1 вершин принадлежат простому циклу C(_n)C(_-) C(_1) и одна вершина (вне этого цикла) смежна со всеми остальными.] (* <- lang_ru;; *);;
+			<= nrel_using_constants: {
+				concept_vertex
+			};;
+		*);;
+	*);;

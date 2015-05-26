@@ -1,0 +1,22 @@
+sc_node_not_relation_relation ->concept_arc;;
+concept_arc
+=> nrel_main_idtf:
+[ ребро ] (* <-lang_ru;; *);
+[ arc' ] (* <-lang_en;; *);
+<-rrel_key_sc_element:
+	...
+	(*<-sc_definition;;
+		=> nrel_main_idtf: [Опр.(ребро)] (* <- lang_ru;; *);;
+		<=nrel_sc_text_translation:
+		...
+			(*
+			-> rrel_example:
+			[Вершина - базовое понятие. Ребро соединяет две вершины графа.] (*<-lang_ru;;*);;
+			*);;
+	*);
+
+<= nrel_using_constants:
+			{
+			concept_graph;
+			concept_node
+			};;

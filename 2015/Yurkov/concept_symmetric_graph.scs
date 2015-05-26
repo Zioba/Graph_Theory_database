@@ -1,0 +1,28 @@
+sc_node_not_relation -> concept_symmetric_graph;;
+
+concept_symmetric_graph => nrel_main_idtf:
+	[симметричный граф]
+	(* <- lang_ru;;	*);
+	[symmetric graph]
+	(* <- lang_en;;	*);;
+
+concept_symmetric_graph <- rrel_key_sc_element:
+	...  
+	(*
+	=> nrel_main_idtf: [Опр.(симметричный граф)] (* <- lang_ru;; *);;
+	<- sc_definition;; 
+	<= nrel_sc_text_translation: 
+		...
+		(*
+		-> rrel_example: 
+			[симметричный граф - граф, группа автоморфизмов которого действует транзитивно как на вершинах, так и на ребрах]
+			(* <- lang_ru;; *);;
+		*);;
+	*);
+	
+	<= nrel_using_constants:
+			{	
+			concept_graph
+			};;
+
+concept_graph => nrel_inclusion: concept_symmetric_graph;;

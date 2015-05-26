@@ -1,0 +1,17 @@
+concept_cylic_graph
+	<- sc_node_not_relation;
+
+	=> nrel_main_idtf: [циклический граф] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [cyclic graph] (* <- lang_en;; *);
+
+	<- rrel_key_sc_element: ... (*
+		<- sc_definition;;
+		<= nrel_sc_text_translation: ... (*
+			-> rrel_example: [связный регулярный степени 2 граф, т.е. граф, единственная компонента связности которого есть простой цикл. ] (* <- lang_ru;; *);;
+			<= nrel_using_constants: {
+				concept_connected_graph;
+				concept_connected_compenent;
+				concept_cycle
+			};;
+		*);;
+	*);;
